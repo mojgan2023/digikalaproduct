@@ -3,9 +3,9 @@ Documentation  testcase click on different product category
 Library  SeleniumLibrary
 Resource  ../Resource/product.robot
 Resource  variables.robot
-Suite Setup  Open Page
+#Suite Setup  Open Page
 Test Setup  Open Page
-Suite Teardown  Close Browser
+#Suite Teardown  Close Browser
 Test Template  select product  
 
 

@@ -17,7 +17,7 @@ Open Page
    Set Selenium Speed  ${SPEED}
    Set Selenium Timeout  ${Timeout}
    open Browser   ${url}  ${Browser}
-   #Maximize Browser Window
+   Maximize Browser Window
 select product 
    [Arguments]  ${Filter}  ${product}
    Wait Until Element Is Visible  ${MainMenu}
